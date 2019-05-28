@@ -9,7 +9,7 @@
 
     Nome: <input #nome> <br>
     Descrizione: <input #descrizione> <br>
-    Prezzo: <input type = "username" #prezzo> <br>
+    Prezzo: <input  #prezzo> <br>
 
     <button (click)= "onClick(nome,descrizione,prezzo)"> Invia </button>
 
@@ -20,6 +20,8 @@
 <div *ngIf="mostra">
   <app-infoverdure >
 </app-infoverdure>
+<app-vegetable-list>
+</app-vegetable-list>
 </div>
 
 

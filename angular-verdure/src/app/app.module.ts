@@ -6,12 +6,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { InfoverdureComponent } from './infoverdure/infoverdure.component';
 import { VegetableListComponent } from './vegetable-list/vegetable-list.component';
+import { CarrelloComponent } from './carrello/carrello.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InfoverdureComponent,
-    VegetableListComponent
+    VegetableListComponent,
+    CarrelloComponent
 
   ],
   imports: [
